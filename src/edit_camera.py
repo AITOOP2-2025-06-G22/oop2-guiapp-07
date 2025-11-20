@@ -4,7 +4,7 @@ import cv2
 def edit_camera_image():
     # 取得した写真の編集処理
     google_img: cv2.Mat = cv2.imread('images/google.png') # Google画像
-    capture_img: cv2.Mat = cv2.imread('output_images/capture_imaged.png') # カメラキャプチャ画像
+    capture_img: cv2.Mat = cv2.imread('output_images/captured_image.png') # カメラキャプチャ画像
 
     g_h, g_w, _ = google_img.shape
     c_h, c_w, _ = capture_img.shape
