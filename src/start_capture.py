@@ -2,6 +2,12 @@ import cv2
 from my_module.K24128.lecture05_camera_image_capture import MyVideoCapture
 
 def start_capture():
+    """
+    Webカメラから映像を取得し、中心にターゲットマークを描画して表示・保存する関数。
+
+    Notes:
+        映像は"output_images/captured_image.png"に保存される。
+    """
     # カメラキャプチャ実行（ファイル保存はしない）
     app = MyVideoCapture()
     app.run()
