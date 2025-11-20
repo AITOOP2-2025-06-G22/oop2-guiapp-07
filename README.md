@@ -28,12 +28,16 @@
 
 
 # GUIを表示する係
-- 撮影開始ボタン・終了ボタン
+- 撮影開始ボタンを表示
+- Qキーを押して撮影終了を表示
 
 # GUIのボタンの処理をする係
-- カメラの起動
+- ボタンを押してカメラの起動
+- Qキーを押して撮影&撮影終了
 - 撮影した画像をoutput_imagesに保存
 - 保存する画像の名前はcaptured_image
 
 # 加工して写真を表示する係
-- output_images内のcaptured_imagesを加工して表示
+- output_images内のcaptured_imageを加工
+- 加工した画像をoutput_images内にprocessed_imageという名前で保存
+- output_images内のprocessed_imageを表示する
