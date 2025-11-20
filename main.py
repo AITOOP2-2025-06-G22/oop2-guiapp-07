@@ -1,6 +1,4 @@
-from src.lecture05_01 import lecture05_01
-from src.start_capture import start_capture
+from src.k24047_layout import main
 
 if __name__ == "__main__":
-    # lecture05_01()
-    start_capture()
+    main()
