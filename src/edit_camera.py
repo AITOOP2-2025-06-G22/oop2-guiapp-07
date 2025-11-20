@@ -31,7 +31,7 @@ def edit_camera_image():
     cv2.imshow('キャプチャーした写真', result_img)
     cv2.waitKey(0)
     # キャプチャ画像を保存
-    cv2.imwrite('output_images/lprocessed_image.png', result_img)
+    cv2.imwrite('output_images/processed_image.png', result_img)
 
 if  __name__ == "__main__":
     edit_camera_image()
