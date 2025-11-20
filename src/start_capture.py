@@ -1,5 +1,6 @@
 import cv2
 from my_module.K24128.lecture05_camera_image_capture import MyVideoCapture
+from src.edit_camera import edit_camera_image
 
 def start_capture():
     """
@@ -20,3 +21,5 @@ def start_capture():
     
     # ファイルの出力
     cv2.imwrite("output_images/captured_image.png", capture_img)
+
+    edit_camera_image()
