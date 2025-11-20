@@ -59,7 +59,7 @@ class ImageViewerApp(QMainWindow):
 
 
         # 操作説明ラベル
-        self.setumei_label = QLabel("撮影ボタンを押して画像処理を開始します。\nQボタンを押すと終了します。")
+        self.setumei_label = QLabel("撮影ボタンを押して画像処理を開始します。\nQボタンを押すと撮影して加工します。\nもう一度Qボタンを押すと終了します。")
         main_layout.addWidget(self.setumei_label)
 
 

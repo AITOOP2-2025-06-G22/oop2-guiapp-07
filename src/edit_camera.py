@@ -28,7 +28,7 @@ def edit_camera_image():
     result_img[white_mask] = tiled_img[white_mask]
 
     # キャプチャ画像の表示
-    cv2.imshow('キャプチャーした写真', result_img)
+    cv2.imshow('RESULT', result_img)
     cv2.waitKey(0)
     # キャプチャ画像を保存
     cv2.imwrite('output_images/processed_image.png', result_img)
